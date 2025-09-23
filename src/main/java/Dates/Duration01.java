@@ -18,7 +18,7 @@ public class Duration01 {
         // Cria um objeto com a data e hora atuais.
         LocalDateTime ldt1 = LocalDateTime.now();
         // Cria um segundo objeto com uma data e hora no futuro.
-        LocalDateTime ldt2 = LocalDateTime.now().plusYears(2).plusMinutes(2).plusSeconds(3).plusDays(1).plusMonths(2);
+        LocalDateTime ldt2 = LocalDateTime.now().plusYears(2).plusMinutes(2);
         // Cria um objeto com o horário atual.
         LocalTime timeNow = LocalTime.now();
         // Cria um segundo objeto com um horário 7 minutos no futuro.
