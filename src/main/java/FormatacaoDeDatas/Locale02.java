@@ -1,24 +1,34 @@
 package FormatacaoDeDatas;
 
+// Importa a classe Locale, usada para representar uma região geográfica, política ou cultural.
 import java.util.Locale;
 
 public class Locale02 {
+    // Método principal, o ponto de entrada da aplicação.
     public static void main(String[] args) {
-        // Imprime a localidade padrão configurada no sistema operacional
+        // Obtém e imprime a localidade (Locale) padrão da JVM (Java Virtual Machine).
+        // Geralmente, essa configuração é herdada do sistema operacional. Ex: pt_BR para Português do Brasil.
         System.out.println(Locale.getDefault());
 
-        // Obtém arrays de códigos de país e idioma conforme o padrão ISO
-        String[] isoCountry = Locale.getISOCountries(); // Códigos de país ISO 3166-1 alpha-2 (ex: BR, US)
-        String[] isoLanguages = Locale.getISOLanguages(); // Códigos de idioma ISO 639-1 (ex: pt, en)
+        // O método estático getISOCountries() retorna um array de Strings com todos os códigos de país
+        // de 2 letras definidos pelo padrão ISO 3166. Ex: "BR", "US", "JP".
+        String[] isoCountry = Locale.getISOCountries();
+        
+        // O método estático getISOLanguages() retorna um array de Strings com todos os códigos de idioma
+        // de 2 letras definidos pelo padrão ISO 639. Ex: "pt", "en", "es".
+        String[] isoLanguages = Locale.getISOLanguages();
 
-        // Loop para iterar e imprimir todos os códigos de idioma ISO
+        // Inicia um loop 'for-each' para percorrer o array de códigos de idiomas.
         for (String isolanguages : isoLanguages){
+            // Imprime cada código de idioma seguido de um espaço, mantendo tudo na mesma linha.
             System.out.print(isolanguages + " ");
         }
-        System.out.println(); // Quebra de linha para separar as saídas
+        // Imprime uma quebra de linha para que a próxima saída comece em uma nova linha.
+        System.out.println();
 
-        // Loop para iterar e imprimir todos os códigos de país ISO
+        // Inicia um loop 'for-each' para percorrer o array de códigos de países.
         for (String isoCountrys : isoCountry){
+            // Imprime cada código de país seguido de um espaço, mantendo tudo na mesma linha.
             System.out.print(isoCountrys + " ");
         }
     }

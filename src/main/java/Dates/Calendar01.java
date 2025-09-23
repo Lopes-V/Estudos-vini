@@ -15,8 +15,8 @@ public class Calendar01 {
         System.out.println(c.get(Calendar.DAY_OF_WEEK_IN_MONTH));// Dia da semana e mes
         System.out.println(c.get(Calendar.DATE));
 
-        c.add(Calendar.DAY_OF_WEEK, 3);
-        c.roll(Calendar.HOUR, 20);
+        c.add(Calendar.DAY_OF_WEEK, 3); // Adiciona um x numero em um y data ou hora 
+        c.roll(Calendar.HOUR, 20); // Faz a mesma coisa que o de cima porém 
         Date date = c.getTime();
         System.out.println(date);
         System.out.println();
