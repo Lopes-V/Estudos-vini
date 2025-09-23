@@ -23,8 +23,6 @@ public class VariaveisString {
         // Verifica se a String 'n' termina com a letra "a". Retorna e imprime 'false' (falso).
         System.out.println(n.endsWith("a"));
         // O método formatted() serve para formatar strings com argumentos (ex: "%s".formatted("valor")).
-        // Chamado sem argumentos, ele apenas retorna a própria String. Saída: "Vinicius".
-        System.out.println(n.formatted());
         
         // Tenta dividir (split) a String 'n' usando o espaço " " como delimitador.
         // Como não há espaços em "Vinicius", o array resultante terá um único elemento: "Vinicius".
@@ -48,12 +46,8 @@ public class VariaveisString {
         System.out.println(sB.capacity());
         // Inverte o conteúdo de 'sB' (um espaço invertido ainda é um espaço) e imprime o resultado.
         System.out.println(sB.reverse());
-        
-        // Chama o método formatted(), mas não armazena nem imprime o resultado. Esta linha não tem efeito visível.
-        n.formatted();
         // Retorna uma referência da string do "pool" de strings do Java, mas o resultado não é usado. Sem efeito visível.
         n.intern();
-
         // Cria um objeto StringBuffer vazio. É uma alternativa ao StringBuilder que é "thread-safe" (sincronizada).
         StringBuffer stringBuffer = new StringBuffer(); 
         // Adiciona a string "nome" ao StringBuffer.
