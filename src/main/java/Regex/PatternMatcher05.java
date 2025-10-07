@@ -1,6 +1,5 @@
 package Regex; // Define o pacote onde a classe está localizada.
 
-import java.util.Arrays; // Importa a classe Arrays (embora não seja usada no código principal, é útil para manipulação de arrays).
 import java.util.regex.Matcher; // Importa a classe Matcher para realizar buscas.
 import java.util.regex.Pattern; // Importa a classe Pattern para compilar a expressão regular.
 
