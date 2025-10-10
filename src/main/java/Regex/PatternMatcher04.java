@@ -12,8 +12,14 @@ public class PatternMatcher04 {
         // \w = a-Z A-Z, todos os digitos, _
         // \W = Tudo que não for incluso no \w
         // []
+        // ? Zero ou uma ocorrência
+        // * Zero ou mais ocorrências
+        // + Uma ou mais ocorrências
+        // {n,m} de n até m ocorrências 
+        // ( ) Agrupamento 
+        // | OU ex: m|v
         String regex = "0[xX][0-9a-fA-F]";
-        String texto = "12 0X 0X 0XFFABC 0X109 0X1";
+        String texto = "12 0X 0X 0XFFABC 0X10G 0X1";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
         System.out.println("Texto:  "+ texto);
