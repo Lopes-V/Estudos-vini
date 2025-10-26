@@ -1,3 +1,5 @@
+package IO;
+
 // Importa a classe File para manipulação de arquivos e diretórios.
 import java.io.File;
 // Importa a classe IOException para tratar erros de entrada/saída.

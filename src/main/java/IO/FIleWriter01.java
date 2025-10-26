@@ -1,3 +1,5 @@
+package IO;
+
 // Importa a classe File, usada para representar um arquivo ou diretório no sistema.
 import java.io.File;
 // Importa a classe FileWriter, usada para escrever caracteres em um arquivo.

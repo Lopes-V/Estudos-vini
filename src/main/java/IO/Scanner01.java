@@ -1,3 +1,5 @@
+package IO;
+
 public class Scanner01 {
     public static void main(String[] args) {
         // 1. Define uma única String que contém vários valores separados por vírgula.

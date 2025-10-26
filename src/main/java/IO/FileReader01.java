@@ -1,3 +1,5 @@
+package IO;
+
 import java.io.File; // Importa a classe File para lidar com arquivos no sistema de arquivos.
 import java.io.FileReader; // Importa a classe FileReader para ler arquivos de texto (caracteres).
 import java.io.IOException; // Importa a classe IOException para tratar erros de entrada/saída.

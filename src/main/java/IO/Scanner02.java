@@ -1,3 +1,5 @@
+package IO;
+
 // Importa a classe Scanner, uma ferramenta poderosa para "ler" e analisar entradas de dados.
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package IO;
+
 import java.io.*; // Importa as classes necessárias para manipulação de arquivos (Entrada/Saída).
 
 public class BufferedWriter01 {
