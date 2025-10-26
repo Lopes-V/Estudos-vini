@@ -11,8 +11,9 @@ public class Normalize01 {
         System.out.println(path1);
         System.out.println(path1.normalize());
 
-        Path path2 = Paths.get("/home/./vinicius/./dev/");
+        Path path2 = Paths.get("home/./vinicius/./dev/");
         System.out.println(path2);
         System.out.println(path2.normalize());
+
     }
 }
