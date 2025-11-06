@@ -1,8 +1,6 @@
 package Serializacao;
 
-import java.io.FileOutputStream; // (Esta importação não está sendo usada no código)
 import java.io.IOException; // Importa para tratar exceções de I/O (Entrada/Saída).
-import java.io.ObjectInput; // (Esta importação não está sendo usada no código)
 import java.io.ObjectInputStream; // Importa o stream usado para LER objetos (deserializar).
 import java.io.ObjectOutputStream; // Importa o stream usado para ESCREVER objetos (serializar).
 import java.nio.file.Files; // Importa a classe Files (para 'newOutputStream' e 'newInputStream').

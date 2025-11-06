@@ -3,9 +3,11 @@ package Serializacao.Dominio;
 import java.io.Serializable;
 
 public class Aluno implements Serializable{
+    private static final long serialVersionUID = 1L;
     private String nome;
     private Long id;
-    private String password;
+    private transient String password;
+    
     
     public Aluno(Long id, String nome, String password) {
         this.id = id;
